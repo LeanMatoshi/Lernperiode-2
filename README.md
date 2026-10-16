@@ -12,6 +12,7 @@ Ich will einen Autokostentracker bauen. Man gibt Weg Verbrauch pro Hundert Kilom
 Heute habe ich jetzt mit dem Autokostentracker angefangen. Weil es mich interessiert und Elemente braucht die ich noch nicht so gut kenne, aber auch noch machbar ist.
 
 23.10.2026
+Hausaufgabe: - [ ] Das der Code noch ein wenig cleaner ist und nicht so komisch.
 - [ ] Ich will machen das es Tatsächlich die Tankung erfasst und auch die Liter eingeben kann.
 - [ ] Ich will auch die Kilometer Funktion reinbringen.
 - [ ] Ich würde gerne auch gerne eine Begrüssung einbauen.
