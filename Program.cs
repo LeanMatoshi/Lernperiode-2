@@ -1,7 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 
 class Program
 {
+    static List<(double liter, double preis, int km)> tankungen = new();
+
     static void Main()
     {
         ZeigeBegrüssung();
@@ -23,10 +28,10 @@ class Program
             switch (choice)
             {
                 case "1":
-                    Console.WriteLine("Tankung wird erfasst.");
+                    ErfasseTankung();
                     break;
                 case "2":
-                    Console.WriteLine("Übersicht.");
+                    ZeigeÜbersicht();
                     break;
                 case "3":
                     ZeigeErklärung();
@@ -43,9 +48,32 @@ class Program
         Console.WriteLine("Tschüss.");
     }
 
+    static double Zahl(string text)
+    {
+        Console.Write(text);
+        return double.Parse(Console.ReadLine()!.Replace(',', '.'), CultureInfo.InvariantCulture);
+    }
+
+    static void ErfasseTankung()
+    {
+        tankungen.Add((Zahl("Liter: "), Zahl("Preis pro Liter: "), (int)Zahl("Kilometerstand: ")));
+        Console.WriteLine("Gespeichert.");
+    }
+
+    static void ZeigeÜbersicht()
+    {
+        if (tankungen.Count < 2) { Console.WriteLine("Mind. 2 Tankungen nötig."); return; }
+        int km = tankungen.Last().km - tankungen.First().km;
+        double liter = tankungen.Skip(1).Sum(t => t.liter);
+        double kosten = tankungen.Skip(1).Sum(t => t.liter * t.preis);
+        Console.WriteLine($"Gefahren:  {km} km");
+        Console.WriteLine($"Verbrauch: {liter / km * 100:F2} L/100 km");
+        Console.WriteLine($"Kosten:    {kosten:F2} CHF ({kosten / km * 100:F2} CHF/100 km)");
+    }
+
     static void ZeigeBegrüssung()
     {
-       Console.WriteLine("  Willkommen beim Auto-Kosten-Tracker!");
+        Console.WriteLine("  Willkommen beim Auto-Kosten-Tracker!");
         ZeigeErklärung();
     }
 
