@@ -16,7 +16,7 @@ Hausaufgabe: -
 - [x] Ich will noch eine Begrüssung und Erklärung einbauen.
 
 23.10.2026      
-- [ ] Das der Code noch ein wenig cleaner ist und nicht so komisch.
-- [ ] Ich will machen das es Tatsächlich die Tankung erfasst und auch die Liter eingeben kann.
-- [ ] Ich will auch die Kilometer Funktion reinbringen.
+- [x] Das der Code noch ein wenig cleaner ist und nicht so komisch.
+- [x] Ich will machen das es Tatsächlich die Tankung erfasst und auch die Liter eingeben kann.
+- [x] Ich will auch die Kilometer Funktion reinbringen.
   
