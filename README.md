@@ -10,7 +10,7 @@ Ich will einen Autokostentracker bauen. Man gibt Weg Verbrauch pro Hundert Kilom
  - [x] Wenn man was falsches eingibt, Stürzt es nicht ab sondern es sagt sogar falsche eingabe.
 
 ✍️ Heute habe ich... (50-100 Wörter)
-Heute habe ich jetzt mit dem Autokostentracker angefangen. Weil es mich interessiert und Elemente braucht die ich noch nicht so gut kenne, aber auch noch machbar ist.
+Heute habe ich jetzt mit dem Autokostentracker angefangen. Weil es mich interessiert und Elemente braucht die ich noch nicht so gut kenne, aber auch noch machbar ist. Das ist auch sowas das man auch normal so benutzen würde und es ist ziemlich nützlich.
 
 Hausaufgabe: -
 - [x] Ich will noch eine Begrüssung und Erklärung einbauen.
