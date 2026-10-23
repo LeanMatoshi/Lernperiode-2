@@ -19,4 +19,12 @@ Hausaufgabe: -
 - [x] Das der Code noch ein wenig cleaner ist und nicht so komisch.
 - [x] Ich will machen das es Tatsächlich die Tankung erfasst und auch die Liter eingeben kann.
 - [x] Ich will auch die Kilometer Funktion reinbringen.
-  
+
+Heute Ist es mir gelungen das man diese Sachen alle eingeben kann und nicht nur so Blöd herumsteht ohne funktion.
+Hausaugabe:
+- [ ] Ich will die Kilometer regeln das es auch geht und versteht was man tun muss
+
+30.11.2026
+- [ ] Ich will Das es wirklich was ausrechnet statt nichts zu tun
+- [ ] Ich will die erklärung noch einwenig überarbeiten
+- [ ] Ich will das es nicht so schlecht aussieht einwnig hübscher machen
