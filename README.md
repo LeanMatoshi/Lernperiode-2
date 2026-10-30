@@ -3,7 +3,7 @@ Lernperiode 2
 Grob-Planung
 Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
 Was wäre ein geeignetes Projekt für diese LP2?
-Ich will einen Autokostentracker bauen. Man gibt Weg Verbrauch pro Hundert Kilometer ein und dann kommt das Resultat raus.
+Ich will einen Autokostentracker bauen. Man gibt Liter, Weg und Verbrauch pro Hundert Kilometer ein und dann kommt das Resultat raus.
 16.10.2026
  - [x] Ich habe mit dem Autokostentracker angefangen.
  - [x] Man kann schon Paar Sachen anklicken aber er hat noch keine Funktion.
