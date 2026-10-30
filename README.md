@@ -32,8 +32,7 @@ Hausaugabe:
 Heute war ein Guter Tag. Ich bin viel weiter gekommen. Man kann es auch eingeben und es bringt Tatsächlich was. Ich finde so bald kann es auch sehr nützlich werden wenn man sich wundert wie viel man ausgibt.
 Hausaufgabe:
 - [ ] Das es eine Prognose der Reichweite hat also wie weit man ungefähr kommt.
-      
-6.11.2026
 - [ ] Ich will das es die Daten speichert
 - [ ] Ich will das man es Speichern kann.
-- [ ] Ich will das es auch exportiert werden kann. 
+- [ ] Ich will das es auch exportiert werden kann.
+- [ ] Man sollte es auch bearbeiten können falls Fehler unterlaufen sind
