@@ -24,7 +24,16 @@ Heute Ist es mir gelungen das man diese Sachen alle eingeben kann und nicht nur 
 Hausaugabe:
 - [x] Ich will die Kilometer regeln das es auch geht und versteht was man tun muss
 
-30.11.2026
-- [ ] Ich will Das es wirklich was ausrechnet statt nichts zu tun
-- [ ] Ich will die erklärung noch einwenig überarbeiten
-- [ ] Ich will das es nicht so schlecht aussieht einwnig hübscher machen
+30.10.2026
+- [x] Ich will Das es wirklich was ausrechnet statt nichts zu tun
+- [x] Ich will die erklärung noch einwenig überarbeiten
+- [x] Ich will das es nicht so schlecht aussieht einwnig hübscher machen
+
+Heute war ein Guter Tag. Ich bin viel weiter gekommen. Man kann es auch eingeben und es bringt Tatsächlich was. Ich finde so bald kann es auch sehr nützlich werden wenn man sich wundert wie viel man ausgibt.
+Hausaufgabe:
+- [ ] Das es eine Prognose der Reichweite hat also wie weit man ungefähr kommt.
+      
+6.11.2026
+- [ ] Ich will das es die Daten speichert
+- [ ] Ich will das man es Speichern kann.
+- [ ] Ich will das es auch exportiert werden kann. 
