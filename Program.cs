@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
@@ -89,3 +89,5 @@ class Program
         Console.WriteLine(" - Mit '0' beendest du das Programm.");
     }
 }
+    
+        
