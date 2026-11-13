@@ -150,3 +150,70 @@ class Program
         Console.ResetColor();
     }
 }
+
+
+**Neues Spiel** 
+using TextAdventure;
+Console.Write("Wie heisst du? ");
+string? name = Console.ReadLine()?.Trim();
+if (string.IsNullOrEmpty(name))
+{
+    name = "Unbekannter";
+}
+Console.WriteLine($"Hallo, {name}");
+var keller = new Raum("Keller", "Es ist kalt und feucht. Irgendwo tropft es.");
+var halle = new Raum("Eingangshalle", "Eine grosse Halle mit knarrendem Holzboden.");
+var turm = new Raum("Turmzimmer", "Ein enger Raum mit Aussicht auf nichts Besonderes.");
+
+keller.Nord = halle;
+halle.Sued = keller;
+halle.Nord = turm;
+turm.Sued = halle;
+
+Raum aktuellerRaum = halle;
+aktuellerRaum.Ausgeben();
+bool laeuft = true;
+while (laeuft)
+{
+    Console.Write("> ");
+    string eingabe = (Console.ReadLine() ?? "").Trim().ToLowerInvariant();
+
+    switch (eingabe)
+    {
+        case "beenden":
+            laeuft = false;
+            break;
+        case "gehe nord":
+            aktuellerRaum = Gehe(aktuellerRaum, aktuellerRaum.Nord);
+            break;
+
+        case "gehe süd":
+        case "gehe sued":
+            aktuellerRaum = Gehe(aktuellerRaum, aktuellerRaum.Sued);
+            break;
+
+        case "umschauen":
+            aktuellerRaum.Ausgeben();
+            break;
+
+        case "":
+            break;
+
+        default:
+            Console.WriteLine("Unbekannter Befehl. Mögliche Befehle: gehe nord, gehe süd, umschauen, beenden");
+            break;
+    }
+}
+
+Console.WriteLine($"Tschüss, {name}!");
+static Raum Gehe(Raum aktuell, Raum? ziel)
+{
+    if (ziel == null)
+    {
+        Console.WriteLine("Da geht es nicht weiter.");
+        return aktuell;
+    }
+
+    ziel.Ausgeben();
+    return ziel;
+}
