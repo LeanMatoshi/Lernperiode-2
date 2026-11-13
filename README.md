@@ -37,4 +37,13 @@ Hausaufgabe:
 - [x] Ich will das es auch exportiert werden kann.
 - [x] Man sollte es auch bearbeiten können falls Fehler unterlaufen sind
 
+13.11.2026
+- [x] ich will ein Konsolenprojekt anlegen, das nach meinem Namen fragt und mich begrüsst.
+- [x] Ich will ich ein Hauptmenü mit einer Schleife bauen, das erst bei beenden stoppt.
+- [x] Ich will ich eine Klasse Raum mit Name und Beschreibung anlegen und einen Raum auf dem Bildschirm ausgeben.
+
+Ich habe mit einem Neuen Projekt angefangen weil das andere mittlerweile fertig ist. Das neue Wird ein Spiel sein wo man einfach in von raum zu Raum geht und überleben muss.
+Hausaufgabe:
+- [ ] Ich will ich die Befehle gehe Nord und gehe Süd verarbeiten, die meinen aktuellen Raum wechseln.
+
 
