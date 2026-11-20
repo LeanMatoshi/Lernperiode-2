@@ -47,3 +47,12 @@ Hausaufgabe:
 - [x] Ich will ich die Befehle gehe Nord und gehe Süd verarbeiten, die meinen aktuellen Raum wechseln.
 
 
+**20.11.2026**
+- [x] Ich will das die Ausgänge angezeigt werden.
+- [x] Ich will noch ein Paar Basic Items einführen.
+- [x] Ich will noch eine Verschlossene Tür einfügen die man nur mit dem Schlüssel öffnen.
+
+
+Hausaufgabe:
+- [x] Ich will noch einbauen eine Hilfe zur verfügung steht die Alle Optionen erklärt.
+
