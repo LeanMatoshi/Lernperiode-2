@@ -152,6 +152,11 @@ class Program
 }
 
 
+
+
+
+
+
 **Neues Spiel** 
 using TextAdventure;
 Console.Write("Wie heisst du? ");
@@ -216,4 +221,5 @@ static Raum Gehe(Raum aktuell, Raum? ziel)
 
     ziel.Ausgeben();
     return ziel;
-}
+} 
+
