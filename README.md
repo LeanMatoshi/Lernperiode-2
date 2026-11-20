@@ -44,6 +44,6 @@ Hausaufgabe:
 
 Ich habe mit einem Neuen Projekt angefangen weil das andere mittlerweile fertig ist. Das neue Wird ein Spiel sein wo man einfach in von raum zu Raum geht und überleben muss.
 Hausaufgabe:
-- [ ] Ich will ich die Befehle gehe Nord und gehe Süd verarbeiten, die meinen aktuellen Raum wechseln.
+- [x] Ich will ich die Befehle gehe Nord und gehe Süd verarbeiten, die meinen aktuellen Raum wechseln.
 
 
