@@ -52,7 +52,7 @@ Hausaufgabe:
 - [x] Ich will noch ein Paar Basic Items einführen.
 - [x] Ich will noch eine Verschlossene Tür einfügen die man nur mit dem Schlüssel öffnen.
 
-Ich habe beim Neuen Spiel weiter gemacht. Ich finde die Idee des Spieles sehr gut. Ich habe jetzt die Ausgänge fertiggestellt. Die Items kann man jetzt auch benutzen wie die Schlüssel. Mit dem macht die einte Tür auf.
+Ich habe beim Neuen Spiel weiter gemacht. Ich finde die Idee des Spieles sehr gut. Ich habe jetzt die Ausgänge fertiggestellt. Die Items kann man jetzt auch benutzen wie die Schlüssel. Mit dem macht man die einte Tür auf.
 
 Hausaufgabe:
 - [x] Ich will noch einbauen eine Hilfe zur verfügung steht die Alle Optionen erklärt.
